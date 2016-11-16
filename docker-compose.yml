@@ -7,4 +7,4 @@ services:
       - '80:80'
     volumes:
       - ./nginx/conf.d:/etc/nginx/conf.d/
-      - ./nginx/log/:/var/log/nginx/
+      - ./nginx/log/:/var/log/nginx/log/
